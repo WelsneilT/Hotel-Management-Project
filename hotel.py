@@ -77,6 +77,7 @@ class HotelManagementSystem:
         lblimg = Label(main_frame, image=self.photoimg4, bd= 4, relief=RIDGE)
         lblimg.place(x=0, y = 225, width=230, height=210)
 
+        #===
         img5 = Image.open(r"images/room3.jpg")
         img5 = img5.resize((230,190), Image.LANCZOS)
         self.photoimg5 = ImageTk.PhotoImage(img5)

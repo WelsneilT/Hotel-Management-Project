@@ -10,7 +10,7 @@ class HotelManagementSystem:
         self.root.geometry("1550x800+0+0")
 
         # ====================== ist =============================
-        img1 = Image.open(r"images/hotel1.png")
+        img1 = Image.open(r"images/AllView1.jpg")
         img1 = img1.resize((1550,140), Image.LANCZOS)
         self.photoimg1 = ImageTk.PhotoImage(img1)
         
@@ -19,7 +19,7 @@ class HotelManagementSystem:
 
 
         # ================================logo ====================================
-        img2 = Image.open(r"images/logohotel.png")
+        img2 = Image.open(r"images/logo10.png")
         img2 = img2.resize((230,140), Image.LANCZOS)
         self.photoimg2 = ImageTk.PhotoImage(img2)
         
@@ -61,7 +61,7 @@ class HotelManagementSystem:
 
 
         #========================================================= right side image ===========================
-        img3 = Image.open(r"images/slide3.jpg")
+        img3 = Image.open(r"images/hotel lễ tân.jpg")
         img3 = img3.resize((1310,590), Image.LANCZOS)
         self.photoimg3 = ImageTk.PhotoImage(img3)
         
@@ -70,14 +70,14 @@ class HotelManagementSystem:
 
 
         # ====================================down images ==========================
-        img4 = Image.open(r"images/myh.jpg")
+        img4 = Image.open(r"images/reception.jpg")
         img4 = img4.resize((230,210), Image.LANCZOS)
         self.photoimg4 = ImageTk.PhotoImage(img4)
         
         lblimg = Label(main_frame, image=self.photoimg4, bd= 4, relief=RIDGE)
         lblimg.place(x=0, y = 225, width=230, height=210)
 
-        img5 = Image.open(r"images/khana.jpg")
+        img5 = Image.open(r"images/room3.jpg")
         img5 = img5.resize((230,190), Image.LANCZOS)
         self.photoimg5 = ImageTk.PhotoImage(img5)
         

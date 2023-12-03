@@ -28,7 +28,7 @@ class Roombooking:
         lbl_title.place(x = 0, y=0, width = 1320, height = 50)
 
         # ================================logo ====================================
-        img2 = Image.open(r"images/logohotel.png")
+        img2 = Image.open(r"images/logo10.png")
         img2 = img2.resize((100,40), Image.LANCZOS)
         self.photoimg2 = ImageTk.PhotoImage(img2)
         
